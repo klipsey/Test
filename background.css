@@ -1,0 +1,74 @@
+* {
+	font-family: Arial, Verdana, sans-serif;
+	color: #665544;
+	text-align: center;
+}
+
+body {
+	width: 90%;
+	margin: 0 auto;
+	background-image: url("https://wallpapercave.com/wp/yunwGQg.jpg");
+}
+
+h1 {
+	color: #87c7ff;
+	font-family: 'AveriaRegular';
+	font-weight: normal;
+	font-style: normal;
+}
+
+#content {
+	overflow: auto;
+}
+
+#nav {}
+
+#feature {
+	background-color: #8CC63E;
+	background-image: url("https://i.imgur.com/sphQUAf.png");
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#footer {
+	margin: 1%;
+}
+
+.column1,
+.column2,
+.column3 {
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+}
+
+.column3 {
+	margin-right: 0%;
+	background-color: #1f9eff;
+}
+
+.column2 {
+	background-color: #f829ff;
+}
+
+.column1 {
+	background-color: #f21f93
+}
+
+li {
+	display: inline;
+	padding: 0.5em;
+}
+
+#nav,
+#footer {
+	background-color: #25d2f5;
+	padding: 0.5em 0;
+}
+
+#feature,
+.article {
+	height: 10em;
+	margin-bottom: 1em;
+}
