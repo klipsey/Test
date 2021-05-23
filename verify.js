@@ -90,6 +90,15 @@ function city() {
     return true;
 }
 
+function state() {
+    var x = document.getElementById('state').value;
+    if (x.length === 0) {
+        alert("Not a valid state");
+        return false;
+    }
+    return true;
+}
+
 function country() {
     var x = document.getElementById('country').value;
     if (x.length === 0) {
@@ -114,7 +123,7 @@ function zip() {
 }
 
 function validateForm() {
-    if (!firstName() || !lastName() || !email() || !phone() || !username() || !password() || !address() || !city() || !country() || !zip()) {
+    if (!firstName() || !lastName() || !email() || !phone() || !username() || !password() || !address() || !city() || !country() || !state() || !zip()) {
         alert('Please fix all errors to submit.');
         return false;
     } else {
