@@ -1,0 +1,29 @@
+#form{
+	border-style:solid;
+  width: 600px;
+height: 380px;
+background-color: #85b4ff;
+margin: 0 auto;
+}
+#left{
+  width:50%;
+  float:left;
+  padding-left:22px;
+  height:40%;
+}
+#right{
+  width:40%;
+  float:right;
+  padding-right:22px
+}
+#bottton{
+   
+}
+h2{
+  text-align:center;
+  color:gray;
+}
+h3{
+  text-align:left;
+  color:#4D4D4D;
+}
