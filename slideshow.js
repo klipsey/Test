@@ -1,7 +1,7 @@
 var imageCount = 1;
 var total = 5;
 
-function photo(x) {
+function picture(x) {
 	var image = document.getElementById('image');
 	imageCount = imageCount + x;
 	if(imageCount > total){imageCount = 1;}
@@ -10,7 +10,7 @@ function photo(x) {
 								
 	}
  
-setInterval(function photoA() {  
+setInterval(function pictureA() {  
 	var image = document.getElementById('image');
 	imageCount = imageCount + 1;
 	if(imageCount > total){imageCount = 1;}
