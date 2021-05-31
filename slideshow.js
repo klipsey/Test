@@ -6,7 +6,7 @@ function picture(x) {
 	imageCount = imageCount + x;
 	if(imageCount > total){imageCount = 1;}
 	if(imageCount < 1){imageCount = total;}	
-	image.src = "img"+ imageCount +".JPG";
+	image.src = "img/img"+ imageCount +".JPG";
 								
 	}
  
@@ -15,5 +15,5 @@ setInterval(function pictureA() {
 	imageCount = imageCount + 1;
 	if(imageCount > total){imageCount = 1;}
 	if(imageCount < 1){imageCount = total;}	
-	image.src = "img"+ imageCount +".JPG";
+	image.src = "img/img"+ imageCount +".JPG";
 	},3000);
