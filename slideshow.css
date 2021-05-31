@@ -1,0 +1,21 @@
+#slider {
+	height:220px;
+	width:325px;
+	margin: 50px auto;
+	margin-bottom: 0px; 
+	position:relative;
+	border-radius:4px;
+	overflow:hidden;
+	}
+#image {
+	height:220px;
+	width:325px;
+	position:absolute;
+	}
+#but{
+	height:20px;
+	width:90px;
+	margin-top: 8px;
+	margin-right: auto;
+	margin-left: auto;
+}
